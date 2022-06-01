@@ -3,6 +3,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Image;
+import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JPanel;
@@ -58,6 +59,7 @@ public class HomeWindow extends JFrame {    // --> Creamos nuestra propia planti
         container.add(homerImg);    // --> Añadimos la instancia JLabel al container de tipo JPanel.
     }
     private void InitJButtons(){    // --> Metodo para inicializar componentes de tipo JButton.
+        // TEXT BUTTON
         JButton button = new JButton(); // --> Instancia JButton
         button.setText("Login");    // --> Asignamos el texto al boton.
         button.setBounds(80, 80, 160, 48);  // --> Posicionamos el boton dentro de la instancia JPanel.
@@ -68,6 +70,14 @@ public class HomeWindow extends JFrame {    // --> Creamos nuestra propia planti
         //button.setEnabled(false);   // --> Este metodo permite habilitar y deshabilitar el boton para su uso, con true el boton podra interactuar con el usuario mientras que con un valor de false el usuario no podra interactuar con el boton.
         button.setMnemonic('L');    // --> Establece el Mnemonico del boton, al presionar ALT + L automaticamente se accede al boton.
         container.add(button);  // --> Añadimos el boton a la instancia del JPanel.
+        // IMG BUTTON
+        JButton imgButton = new JButton();
+        imgButton.setBounds(80, 200, 80, 80);
+        imgButton.setOpaque(true);
+        imgButton.setBackground(Color.gray);
+        ImageIcon loginImg = new ImageIcon("login.png");
+        imgButton.setIcon(new ImageIcon(loginImg.getImage().getScaledInstance(imgButton.getWidth(), imgButton.getHeight(), Image.SCALE_SMOOTH)));
+        container.add(imgButton);
     }
 }
 // A partir de esta plantilla crearemos instancias en la clase main para realizar varios ejericicios.
