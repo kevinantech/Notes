@@ -17,5 +17,9 @@
         let numFround = 8.55555555555555555555555555555;
         console.log(Math.fround(numFround));    // --> Retorna un numero redondeado en un espacio en memoria de 4 bytes.
     */
+    /*
+        let num = 5.34534523;
+        console.log(num.toFixed(3));    // --> Retorna un numero redondeado de acuerdo a la cantidad de decimales especificados en el parametro.
+    */
     // CONSTANTES 
     //console.log(Math.PI);   // --> Hace referencia al valor de PI.
