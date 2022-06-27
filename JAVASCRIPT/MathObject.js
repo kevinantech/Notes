@@ -1,7 +1,12 @@
     //console.log(Math.sqrt(25)); // --> Retorna la raiz cuadrada positiva del numero indicado en el parametro.
     //console.log(Math.cbrt(8));  // --> Retorna la raiz cubica positiva del numero indicado como parametro.
-    //console.log(Math.max(1, 2, 3, 4, 5));   // --> Retorna el numero mayor de los establecidos por parametro.
-    //console.log(Math.min(1, 2, 3, 4, 5));   // --> Retorna el numero menor de los establecidos por parametro. 
+    /*
+        let numbers = [1, 2, 3];
+        console.log(Math.min(...numbers));  // --> Retorna el numero menor del array.
+        console.log(Matg.max(...numbers));  // --> Retorna el numero mayor del array.
+        //console.log(Math.max(1, 2, 3, 4, 5));   // --> Retorna el numero mayor de los establecidos por parametro.
+        //console.log(Math.min(1, 2, 3, 4, 5));   // --> Retorna el numero menor de los establecidos por parametro.
+    */ 
     /*
         let number = Math.random() * 100; // --> Math.random() retorna un numero pseudo-aleatorio entre 0 y 1. En caso de usar este metodo de la mano Math.round() los numeros enteros 0 y x(Por defecto uno pero si se multiplica por x cantidad no sera tenida en cuenta).
         console.log(number);    
