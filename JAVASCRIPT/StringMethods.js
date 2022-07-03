@@ -19,4 +19,4 @@
     console.log(d.trim().length);       // Retorna una cadena en la cual se eliminan los espacios que estan demas antes del comienzo y despues del final de una cadena padre. Nota: length es para saber el tamaño de un arreglo.
     console.log(d.trimStart().length);  // Retorna una cadena en la cual se eliminan los espacios que estan demas antes del comienzo de una cadena padre.
     console.log(d.trimEnd().length);    // Retorna una cadena en la cual se eliminan los espacios que estan demas despues del final de una cadena padre.
-    
+    console.log(a.slice(0, 4);          // Selecciona un conjunto de caracteres a partir de la cadena original teniendo en cuenta los indices especificados.
